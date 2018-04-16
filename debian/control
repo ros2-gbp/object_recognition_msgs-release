@@ -1,0 +1,12 @@
+Source: ros-melodic-object-recognition-msgs
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs
+Homepage: http://www.ros.org/wiki/object_recognition
+Standards-Version: 3.9.2
+
+Package: ros-melodic-object-recognition-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs
+Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
