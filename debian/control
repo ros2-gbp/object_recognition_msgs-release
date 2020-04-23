@@ -1,0 +1,12 @@
+Source: ros-noetic-object-recognition-msgs
+Section: misc
+Priority: optional
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-sensor-msgs, ros-noetic-shape-msgs, ros-noetic-std-msgs
+Homepage: http://www.ros.org/wiki/object_recognition
+Standards-Version: 3.9.2
+
+Package: ros-noetic-object-recognition-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-shape-msgs, ros-noetic-std-msgs
+Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
