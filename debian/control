@@ -1,0 +1,12 @@
+Source: ros-iron-object-recognition-msgs
+Section: misc
+Priority: optional
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-action-msgs, ros-iron-ament-cmake, ros-iron-geometry-msgs, ros-iron-rosidl-default-generators, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: http://www.ros.org/wiki/object_recognition
+Standards-Version: 3.9.2
+
+Package: ros-iron-object-recognition-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-action-msgs, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-ros-workspace
+Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
