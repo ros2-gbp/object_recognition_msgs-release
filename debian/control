@@ -1,0 +1,12 @@
+Source: ros-kilted-object-recognition-msgs
+Section: misc
+Priority: optional
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-action-msgs, ros-kilted-ament-cmake, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-generators, ros-kilted-sensor-msgs, ros-kilted-shape-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: http://www.ros.org/wiki/object_recognition
+Standards-Version: 3.9.2
+
+Package: ros-kilted-object-recognition-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-action-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-shape-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
