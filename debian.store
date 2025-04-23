@@ -1,1 +1,1 @@
-{"base": "ef5283e", "parent": "debian/rolling/object_recognition_msgs", "previous": "0415aef", "trim": "", "trimbase": ""}
+{"base": "d96cfc62aa14", "parent": "debian/kilted/object_recognition_msgs", "previous": "8e4a302667f2", "trim": "", "trimbase": ""}
